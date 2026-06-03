@@ -4,6 +4,41 @@
 <h2 align="center">How To Host</h2>
 <h2 align="center">The easiest way to deploy mah bot! is click on the image below</h2>
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/TechnoAyanOfficial/TechnoAyanBOT"> <img src="https://telegra.ph/file/1e19c6dcfe6040231d306.png" alt="Deploy to Heroku" /></a></p>
+
+<h2 align="center">Deploy on VPS</h2>
+
+### Prerequisites
+- Python 3.7 or higher.
+- Git
+- FFmpeg (for multimedia features)
+
+### Step-by-Step Guide
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/TechnoAyanOfficial/TechnoAyanBoT
+   cd TechnoAyanBoT
+   ```
+
+2. **Install Dependencies:**
+   ```bash
+   pip3 install -r requirements.txt
+   ```
+
+3. **Setup Environment Variables:**
+   - Copy `.env.sample` to `.env`:
+     ```bash
+     cp .env.sample .env
+     ```
+   - Edit the `.env` file with your details (APP_ID, API_HASH, STRING_SESSION, etc.):
+     ```bash
+     nano .env
+     ```
+
+4. **Run the Bot:**
+   ```bash
+   python3 -m userbot
+   ```
+
 <h2 align="center">Updates and Support</h2>
 <p align="center">Join our <a href="https://t.me/TechnoAyanBot">Telegram Channel</a> for update notifications!</p>
 <p align="center">Also join our <a href="https://t.me/TechnoAyanYT">Telegram Support Group</a> for help and support!</p>
